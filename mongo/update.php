@@ -26,7 +26,7 @@ $set_values = array();
 
 foreach ($fields as $key => $field) {
 	$arr = (array)$field;
-	foreach ($fields as $key => $value) {
+	foreach ($arr as $key => $value) {
 		$set_values[$key] = $value;
 	}
 }
