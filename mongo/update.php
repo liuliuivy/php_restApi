@@ -24,8 +24,8 @@ $fields = $data->{'fields'};
 
 $set_values = array();
 
-foreach ($fields as $key => $fields) {
-	$arr = (array)$fields;
+foreach ($fields as $key => $field) {
+	$arr = (array)$field;
 	foreach ($fields as $key => $value) {
 		$set_values[$key] = $value;
 	}
